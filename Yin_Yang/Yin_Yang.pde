@@ -1,11 +1,21 @@
-// create a canvas
+//Canvas is created as this is put in
 size(400, 400);
+background(169);
 
-// STEP 1 OF STORYBOARD
+//circle is created with ellipse function
+noStroke();
+ellipse(200, 200, 350, 350);
+//create half circle here
 
-// Make a white background
-background(255);
+fill(#15A1E5);
+arc(200, 200, 350, 350, radians(90), radians(270));
+fill(#15A1E5);
+//below is the bottom black part of the yin yang
+ellipse(200, 290, 172, 172);
+fill(255);
+ellipse(200, 300, 50, 50);
 
-// Make the black rectangle
-fill(0);
-rect(200, 0, 200, 400);
+//below is the top white part of the yin yang symbol
+ellipse(200, 115, 175, 178);
+fill(#15A1E5);
+ellipse(200, 100, 50, 50);
