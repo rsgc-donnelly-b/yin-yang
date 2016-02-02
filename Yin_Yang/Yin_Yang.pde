@@ -1,5 +1,11 @@
 // create a canvas
 size(400, 400);
 
-// create a circle
-ellipse(200, 200, 50, 50);
+// STEP 1 OF STORYBOARD
+
+// Make a white background
+background(255);
+
+// Make the black rectangle
+fill(0);
+rect(200, 0, 200, 400);
